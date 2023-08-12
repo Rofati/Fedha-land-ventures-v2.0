@@ -187,6 +187,16 @@ nav a{
 button .fa-whatsapp{
     margin-left: 10px;
 }
+.burger{
+  display: none;
+  margin-right: 5px;
+}
+.burger div{
+  width: 20px;
+  height: 2px;
+  margin: 4px;
+  background-color: #000000;
+}
 @media (max-width: 768px){
   .medialinks{
     margin-left: -12px;
@@ -217,6 +227,9 @@ button .fa-whatsapp{
   }
   nav .whatsappmobi > a{
     margin: 0;
+  }
+  .burger{
+    display: unset;
   }
 }
 
