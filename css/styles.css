@@ -71,7 +71,7 @@ nav a{
 }
 .navdetail{
     width: 100%;
-    /* height: auto; */
+    height: 70px;
     padding: 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -193,6 +193,15 @@ button .fa-whatsapp{
     /* background-color: green; */
     margin: unset;
     padding-right: 16px;
+  }
+  .navdetail{
+    height: 50px;
+  }
+  .navdetail .logo img{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
   }
 }
 
