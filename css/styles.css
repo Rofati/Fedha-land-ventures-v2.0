@@ -212,6 +212,12 @@ button .fa-whatsapp{
   .navdetail{
     height: 50px;
   }
+  .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* overflow: hidden; */
+  }
   .navdetail .logo img{
     width: 60px;
     display: flex;
@@ -226,6 +232,9 @@ button .fa-whatsapp{
   }
   .whatsapp-button{
     padding: 5px;
+  }
+  nav a{
+    margin: unset;
   }
   nav .whatsappmobi > a{
     margin: 0;
