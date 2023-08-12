@@ -184,6 +184,17 @@ nav a{
 button .fa-whatsapp{
     margin-left: 10px;
 }
+@media (max-width: 768px){
+  .medialinks{
+    margin-left: -12px;
+  }
+  .medialinks a{
+    /* all: unset; */
+    /* background-color: green; */
+    margin: unset;
+    padding-right: 16px;
+  }
+}
 
 body{
     /* height: 200vh; */
