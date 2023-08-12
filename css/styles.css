@@ -58,10 +58,9 @@ header{
 }
 nav{
     display: flex;
-    padding: 0 5px;
+    padding: 12px 5px;
     justify-content: space-between;
     align-items: center;
-    height: 7vh;
 }
 nav a{
     color: #fff;
@@ -72,7 +71,8 @@ nav a{
 }
 .navdetail{
     width: 100%;
-    height: 9vh;
+    /* height: auto; */
+    padding: 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: #ffffff;
