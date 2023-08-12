@@ -348,8 +348,13 @@ body{
 /* 5 */
 @media screen and (max-width: 800px){
 	.myslide{
-		height: 280px;
+		height: 400px;
 	}
+  .myslide.fade img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 	.txt{
 		/* letter-spacing: 1px; */
 		line-height: 15px;
