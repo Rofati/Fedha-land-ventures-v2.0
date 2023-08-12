@@ -181,6 +181,9 @@ nav a{
     background-color: #128c7e;
     color: #fff;
   }
+.whatsappmobi{
+    display: none;
+  }
 button .fa-whatsapp{
     margin-left: 10px;
 }
@@ -202,6 +205,18 @@ button .fa-whatsapp{
     display: flex;
     align-items: center;
     margin-left: 12px;
+  }
+  .whatsapp{
+    display: none;
+  }
+  .whatsappmobi{
+    display: unset;
+  }
+  .whatsapp-button{
+    padding: 5px;
+  }
+  nav .whatsappmobi > a{
+    margin: 0;
   }
 }
 
