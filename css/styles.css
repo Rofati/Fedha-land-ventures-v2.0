@@ -715,7 +715,7 @@ body{
   }
   .testimonial-card .test-card-body{
 	  background-color: var(--card-clr);
-	  box-shadow: 2px 2px 20px rgba(213, 201, 253, 0.055);
+	  box-shadow: 2px 2px 20px rgba(56, 29, 29, 0.692);
 	  padding: 20px;
 	  border-radius: 5px;
   }
