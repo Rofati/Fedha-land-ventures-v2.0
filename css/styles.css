@@ -546,7 +546,7 @@ body{
 }
 @media (max-width: 768px) {
     .catch {
-      background-color: #16163F;
+      background-color: #141416;
       color: #ffff;
       display: flex;
       align-items: center; /* Center content horizontally */
