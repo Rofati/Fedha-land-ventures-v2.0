@@ -190,6 +190,8 @@ button .fa-whatsapp{
 .burger{
   display: none;
   margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #0000005b;
 }
 .burger div{
   width: 20px;
