@@ -385,6 +385,11 @@ body{
 
 
 /* 5 */
+@media screen and (max-width: 1080px) {
+  .dotsbox{
+    top: 600px;
+  }
+}
 @media screen and (max-width: 800px){
   .slider{
     margin-top: 100px;
@@ -1344,3 +1349,25 @@ footer{
 	  margin: 0 35px;
 	}
   }
+  .animate {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-20%);
+    transition: all 1s;
+  }
+  .show{
+    opacity :  1 !important;;
+    filter: blur(0);
+    transform: none;
+  }
+  .animate2 {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s, transform 0.5s, filter 0.5s;
+  }
+  
+  .show {
+    opacity: 1;
+    transform: scale(1);
+  }
+  

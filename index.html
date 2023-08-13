@@ -215,14 +215,14 @@
         <p>
             At Fedha land, we believe that your dream property should be within reach. Our team of dedicated experts is passionate about connecting you with the ideal home or investment opportunity that suits your lifestyle and aspirations.
         </p>
-        <div class="button">
+        <div class="button animate2">
           <a href="#">Talk to us now</a>
           <span class="wave"></span>
         </div>              
     </div>
     <div class="box2">
         <div class="mini1">
-            <h2>
+            <h2 class="animate">
                 Our vision
             </h2>
             <p>
@@ -230,7 +230,7 @@
             </p>
         </div>
         <div class="mini2">
-            <h2>
+            <h2 class="animate">
                 Why Fedha
             </h2>
             <p>
@@ -240,7 +240,7 @@
     </div>
     <div class="box3">
         <div class="mini3">
-            <h2>
+            <h2 class="animate">
                 Our mission
             </h2>
             <p>
@@ -248,7 +248,7 @@
             </p>
         </div>
         <div class="mini4">
-            <h2>
+            <h2 class="animate">
                 Our drive
             </h2>
             <p>
@@ -275,7 +275,7 @@
         <h2>
             Integrity
         </h2>
-        <p>
+        <p class="animate2">
             Guided by unwavering ethical standards, we prioritize transparency and trust in all our interactions.
         </p>
     </div>
@@ -286,7 +286,7 @@
         <h2>
             Innovation
         </h2>
-        <p>
+        <p class="animate2">
             Embracing creativity and technology, we continuously seek new ways to deliver cutting-edge real estate solutions.
         </p>
     </div>
@@ -297,7 +297,7 @@
         <h2>
             Community Empowerment
         </h2>
-        <p>
+        <p class="animate2">
             Committed to making a positive impact, we invest in and uplift communities, fostering shared prosperity
         </p>
     </div>
@@ -313,13 +313,13 @@
         <h1>
             Fadhili Garden Makutano
         </h1>
-        <h3>
+        <h3 class="animate">
             Prime 50x 100 plots
         </h3>
         <p>
             Discover the perfect opportunity to build your dream home in Genesis Gardens Nanyuki, where generous 50 by 100 plots await. Embrace the freedom to design and create a living space that reflects your unique style and aspirations. 
         </p>
-        <ul>
+        <ul class="animate">
             <li><i class="fas fa-check-circle"></i>Prime 1/8th an acre plots</li>
             <li><i class="fas fa-check-circle"></i>Cash offer Ksh 350,000</li>
             <li><i class="fas fa-check-circle"></i>Installments offer Ksh 100,000</li>
@@ -327,7 +327,7 @@
         <p>
             Enjoy flexible payment options. we have a plan of up to 6 months. Deposit only Ksh 100,000 and clear the balance within 6 months.
         </p>
-        <div class="button"><a href="">View More Properties</a></div>
+        <div class="button animate2"><a href="">View More Properties</a></div>
     </div>
 </section>
 
@@ -563,7 +563,7 @@
     </div>
     <div class="FAQanswer">
         <div class="accordion">
-            <div class="image-box">
+            <div class="image-box animate2">
               <img src="/img/FAQs.png" alt="">
             </div>
             <div class="accordion-text">
@@ -755,6 +755,23 @@
 	</div>
 </footer>
 
+<!-- Animations -->
+<script defer>
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        console.log(entry)
+        if (entry.isIntersecting){
+          entry.target.classList.add('show');
+        }
+        else
+        {
+          entry.target.classList.remove('show');
+        }
+      });
+    });
 
+    const hiddenElements = document.querySelectorAll('.animate, .animate2');
+    hiddenElements.forEach((el) => observer.observe(el));
+</script>
 </body>
 </html>
