@@ -68,17 +68,18 @@
                 </li>
             </ul>
             <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                  const dropdownToggle = document.querySelector(".dropdown-toggle");
-                  const dropdownContent = document.querySelector(".dropdown-content");
-            
-                  dropdownToggle.addEventListener("click", function (event) {
-                    event.preventDefault();
-                    dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
-                  });
+              document.addEventListener("DOMContentLoaded", function () {
+                const dropdownToggle = document.querySelector(".dropdown-toggle");
+                const dropdownContent = document.querySelector(".dropdown-content");
+              
+                dropdownToggle.addEventListener("click", function (event) {
+                  event.preventDefault();
+                  dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
                 });
+              });          
               </script>
         </div>
+        <script src="/js/script.js"></script>
         <div class="whatsapp">
             <a href="https://wa.me/+254798384040" target="_blank">
                 <button class="whatsapp-button">Message<i class="fab fa-whatsapp"></i></button>
@@ -89,6 +90,27 @@
           <div class="line2"></div>
           <div class="line3"></div>
       </div>
+      <script>
+        //burger script
+        document.addEventListener("DOMContentLoaded", function () {
+          const burger = document.querySelector('.burger');
+          const nav = document.querySelector('.navlinks');
+          const navlinks = document.querySelectorAll('.navlinks li');
+        
+          burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+            navlinks.forEach((link, index) => {
+              if (link.style.animation) {
+                link.style.animation = '';
+              } else {
+                link.style.animation = `navlinkFade 0.5s ease ${index / 7 + 0.3}s forwards`;
+              }
+            });
+            burger.classList.toggle('toggles');
+          });
+        });
+        
+      </script>
     </nav>
 </header>
 <div style="height: 9%;"></div> <!-- Create space equal to the header height -->
