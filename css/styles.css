@@ -119,11 +119,12 @@ nav a{
     background-color: #f71519dc;
     transition: width 0.3s ease;
   }
-
   .navlinks li:hover a::before {
     width: 100%;
   }
-
+  .navlinks .dropdown-content a::before{
+    display: none;
+  }
   .dropdown {
     position: relative;
   }
@@ -299,6 +300,7 @@ button .fa-whatsapp{
   padding-left: 10px;
   border-left: 3px solid red;
   border-right: 3px solid red;
+  transition: all .5s ease-in-out;
   /* background-color: green; */
 }
 .navlinks li a::before{
@@ -337,6 +339,8 @@ body{
 /* Sliders */
 .slider{
 	overflow: hidden;
+  margin-right: 5px;
+  margin-left: 5px;
   margin-top: 8%;
 }
 .myslide{
@@ -1434,6 +1438,9 @@ footer{
 	  text-decoration: underline;
 	  margin: 0 35px;
 	}
+  .terms-condition{
+    padding-left: 20px;
+  }
   }
   .animate {
     opacity: 0;
