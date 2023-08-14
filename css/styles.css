@@ -769,6 +769,7 @@ body{
   justify-content: center;
   padding: 30px;
 }
+
 .propertydes ul{
   list-style: none;
   margin: 15px 0;
@@ -785,6 +786,11 @@ body{
   margin-bottom: 10px;
 }
 /* Media Query for Mobile */
+@media (max-width: 1000px) {
+  .propertydes{
+    gap: unset;
+  }
+}
 @media (max-width: 768px) {
   .fadhiligarden {
     flex-direction: column;
