@@ -763,7 +763,7 @@ body{
 .propertydes{
   width: 50%;
   height: 100%;
-  gap: 20px;
+  gap: 22px;
   display: flex;
   flex-direction: column;
   justify-content: center;
