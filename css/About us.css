@@ -7,7 +7,7 @@ body{
     background-color: #DCDDE0;
 }
 .aboutus{
-    height: 160vh;
+    height: 80vh;
     background: #DCDDE0;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ body{
 @media only screen and (max-width: 768px) {
 
     .aboutus {
-      height: 120vh;
+      height: 160vh;
     }
   
     .aboutinfo {
