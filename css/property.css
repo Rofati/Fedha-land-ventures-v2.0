@@ -221,9 +221,6 @@
 
 
       @media only screen and (max-width: 768px) {
-        .accordion{
-            width: 95% !important;
-        }
         .main-descriprion{
             flex-wrap: wrap;
             width: 95%;
