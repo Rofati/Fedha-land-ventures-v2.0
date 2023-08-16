@@ -1,0 +1,118 @@
+/* Reachout section  */
+.reachout{
+	/* background-color: red; */
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 120px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+.reachout .contactForm
+{
+	position: relative;
+	border-radius: 5px;
+	width: 50%;
+	height: 500px;
+	background: #ECE9F5;
+	box-shadow: 0 8px 8px 0 rgba(27, 6, 83, 0.397);
+	min-height: 100px;
+	padding: 50px;
+	transition: .3s ease-in-out;
+} 
+.reachout .contactForm:hover{
+box-shadow: 2px 1px 15px #e208082c;
+}
+.reachout .contactForm h2 
+{
+	font-size: 2em;
+	color: #333;
+	font-weight: 500;
+}
+.reachout .contactForm .inputBox 
+{
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+}
+.reachout .contactForm .inputBox input, 
+.reachout .contactForm .inputBox textarea 
+{
+	width: 100%;
+	padding: 5px 0;
+	font-size: .9em;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 1px solid #3333337e;
+	outline: none;
+	resize: none;
+	background-color: transparent;
+}
+.reachout .contactForm .inputBox textarea{
+	margin-bottom: 27px;
+	/* background-color: red; */
+}
+.reachout .contactForm .inputBox select{
+	background-color: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #000;
+	width: 100%;
+	height: 26px;
+}
+.reachout .contactForm .inputBox span 
+{
+	position: absolute;
+	left: 0;
+	pointer-events: none;
+	padding: 5px 0;
+	margin: 10px 0;
+	font-size: .9em;
+	color: #666;
+	background-color: transparent;
+	transition: 0.5s;
+}
+.reachout .contactForm .inputBox input:focus ~ span, 
+.reachout .contactForm .inputBox textarea:focus ~ span,
+.reachout .contactForm .inputBox input:valid ~ span, 
+.reachout .contactForm .inputBox textarea:valid ~ span 
+{
+	color: #F50001;
+	font-size: 0.6em;
+	transform: translateY(-20px);
+}
+.reachout .contactForm .inputBox input[type="submit"]
+{
+	width: 100px;
+	background: #000000;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+@media (max-width: 767px) {
+	.reachout {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+      padding: 5px;
+      gap: unset;
+	}
+	
+	.contactForm {
+	  margin-bottom: 20px;
+	}
+	.reachout .contactForm{
+		width: 99%;
+	}
+	/* .contactForm.message{
+		display: none;
+	} */
+	.headings .contact{
+		display: none;
+	}
+  }
