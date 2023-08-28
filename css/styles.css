@@ -210,7 +210,7 @@ button .fa-whatsapp{
 @media (max-width: 768px){
   nav{
     padding: unset;
-    padding: 5px 5px;
+    padding: 5px 5px 5px 12px;
   }
   .medialinks{
     margin-left: -12px;
