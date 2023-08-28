@@ -449,27 +449,27 @@ body{
 /* /3 */
 
 /* 4 */
-.myslide.fade > img{
+.myslide.fade > img {
   width: 100%;
   height: 570px;
   object-fit: cover;
   overflow: hidden;
-	transform: scale(1.5, 1.5);
-	-webkit-animation-name: zoomin;
-  	-webkit-animation-duration: 40s;
-  	animation-name: zoomin;
-  	animation-duration: 40s;
-}
-@-webkit-keyframes zoomin {
-  from {transform: scale(1, 1);}
-  to {transform: scale(1.5, 1.5);}
+  opacity: 0;
+  filter: blur(10px) brightness(0.8) contrast(1.2);
+  animation: techy-fade-in 3s ease-out forwards;
 }
 
-
-@keyframes zoomin {
-  from {transform: scale(1, 1);}
-  to {transform: scale(1.5, 1.5);}
+@keyframes techy-fade-in {
+  from {
+    opacity: 0;
+    filter: blur(5px) brightness(0.5) contrast(2.2) saturate(1.5);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0) brightness(1) contrast(1);
+  }
 }
+
 /* /4 */
 
 
