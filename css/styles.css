@@ -97,7 +97,11 @@ nav a{
     /* background-color: green; */
     margin-left: -120px;
   }
-
+  @media screen and (max-width: 949px) {
+    .navlinks{
+      margin-left: unset;
+    }
+  }
   .navlinks li {
     display: inline-block;
     margin-right: 12px;
@@ -223,7 +227,7 @@ button .fa-whatsapp{
     /* overflow: hidden; */
   }
   .navdetail .logo img{
-    width: 60px;
+    width: 170px;
     display: flex;
     align-items: center;
     margin-left: 12px;
