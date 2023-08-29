@@ -23,7 +23,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="/js/script.js"></script>
 </head>
 <body>
   <div class="preloader">
@@ -785,6 +784,17 @@
 
     const hiddenElements = document.querySelectorAll('.animate, .animate2');
     hiddenElements.forEach((el) => observer.observe(el));
+
+    window.addEventListener('load', function () {
+  const preloader = document.querySelector('.preloader');
+  setTimeout(function () {
+    preloader.style.opacity = '0';
+    setTimeout(function () {
+      preloader.style.display = 'none';
+    }, 500); // Adjust the delay as needed
+  }, 1000); // Adjust the delay as needed
+  }); 
 </script>
+<!-- <script src="/js/script.js"></script> -->
 </body>
 </html>

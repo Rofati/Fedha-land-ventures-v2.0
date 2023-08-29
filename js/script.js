@@ -17,14 +17,3 @@ const navSlide = () => {
     });
   }
 navSlide();
-
-//  preloader 
-window.addEventListener('load', function () {
-  const preloader = document.querySelector('.preloader');
-  setTimeout(function () {
-    preloader.style.opacity = '0';
-    setTimeout(function () {
-      preloader.style.display = 'none';
-    }, 500); // Adjust the delay as needed
-  }, 1000); // Adjust the delay as needed
-}); 
