@@ -900,9 +900,6 @@ body{
   .testimonials-container{
 	  position: relative;
   }
-  .testimonials-container .testimonial-card{
-	  padding: 10px;
-  }
   .testimonial-card .test-card-body{
 	  background-color: var(--card-clr);
 	  box-shadow: 5px 5px 10px rgba(165, 11, 11, 0.692);
@@ -1009,7 +1006,7 @@ body{
 	  padding: 0px 5%;
 	}
 	.testimonials-container .testimonial-card{
-	  padding: 0;
+	  padding: 0 7px 0 0;
 	}
 	.section-header h1{
 	  font-size: 25px;
