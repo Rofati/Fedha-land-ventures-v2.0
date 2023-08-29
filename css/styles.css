@@ -97,9 +97,10 @@ nav a{
     /* background-color: green; */
     margin-left: -120px;
   }
-  @media screen and (max-width: 978px) {
+  @media screen and (max-width: 1000px) {
     .navlinks{
       margin-left: unset;
+      /* background-color: green; */
     }
   }
   .navlinks li {
