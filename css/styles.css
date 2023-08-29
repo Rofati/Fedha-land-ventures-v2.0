@@ -208,6 +208,9 @@ button .fa-whatsapp{
   margin: 4px;
   background-color: #000000;
 }
+.conli{
+  display: none;
+}
 @media (max-width: 768px){
   nav{
     padding: unset;
@@ -654,6 +657,21 @@ body{
   padding:  20px 0;
 }
 @media (max-width: 768px) {
+  .conli{
+    display: unset;
+    margin-top: 90px;
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+  }
+  .conli a{
+
+    border: 1px solid rgb(156, 155, 155);
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    margin: 10px 300px 0 5px;
+  }
   .contacts{
     display: none;
   }
