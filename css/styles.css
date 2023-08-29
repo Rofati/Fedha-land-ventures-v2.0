@@ -266,14 +266,14 @@ button .fa-whatsapp{
   flex-direction: column;
   background-color: #ffffff;
   height: 100vh;
-  width: 120%;
+  width: 50%;
   margin-top: 20px;
   padding-top: 10px;
   transform: translateX(100%);
   transition: transform 0.5s ease-in;
 }
 .nav-active {
-  transform: translateX(0%);
+  transform: translateX(-10%);
 }
 @keyframes navlinkFade {
   from {
