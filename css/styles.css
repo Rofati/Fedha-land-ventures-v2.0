@@ -836,6 +836,7 @@ body{
     width: 100%;
     justify-content: center;
     margin-bottom: 20px;
+    order: -1; /* This will move the image to the top */
   }
 
   .propertyimg img {
@@ -878,6 +879,7 @@ body{
     text-align: center;
   }
 }
+
 
 
 
