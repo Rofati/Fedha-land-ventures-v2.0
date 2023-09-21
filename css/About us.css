@@ -3,12 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #DCDDE0;
-}
 .aboutus{
     height: 80vh;
-    background: #DCDDE0;
+    background: #F4F4F4;
     display: flex;
     justify-content: center;
     margin-top: 115px;

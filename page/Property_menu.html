@@ -3,15 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- google xml -->
-
+    <!-- bing xml -->
+    <meta name="msvalidate.01" content="BFC167AC147A1C2A5E0F60E565B427F8" />
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+   </script>
+  <!-- End Google Analytics -->
     <!-- Site Descriptions -->
     <meta name="description" content="Fedha Land Ventures offers a wide range of premium land and real estate properties. Explore our extensive listings and find your dream property today.">
-    <meta name="keywords" content="land for sale, real estate properties, premium land, investment properties, residential properties, commercial properties, fedhalandventures.co.ke, fedhaland, fedha, fedhalandventures.com, fedhaltd, fedhalandventures">
+    <meta name="keywords" content="Where is the land cheapest?,
+    How much is the cheapest land in Nairobi?,
+    Do I need a lawyer to buy land in Kenya?,
+    How many plots make an acre in Kenya?,
+    Which type of land is best for investment?,
+    How much is an acre of land in Kenya?,
+    How much does a title deed cost in Kenya?,
+    How big is a 50 by 100 plot of land in Kenya?,
+    What is the fastest way to sell land in Kenya?,
+    How long do you own land in Kenya?,
+    How much is the land transfer fee in Kenya?,
+    How much does it cost to search land in Kenya?,
+    Can a title deed have two names in Kenya?,
+    Where is land most expensive in Kenya?,
+    Where is an acre the cheapest?,
+    Why is land so expensive in Kenya?,
+    Why is owning land good?,
+    What size is an acre?,
+    Which country has highest land prices?,
+    What country has the cheapest land in Africa?,
+    How many 50x100 are in half an acre?,
+    How many meters is an acre in Kenya?,
+    How many plots make one acre?,
+    land for sale, real estate properties, premium land, investment properties, residential properties, commercial properties, fedhalandventures.co.ke, fedhaland, fedha, fedhalandventures.com, fedhaltd, fedhalandventures, Best Land sellers, Best rated real estate, lands, buy land">
     <title>Fedha Land Ventures</title>
     <!-- links -->
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/sitebooking.css">
     <link rel="stylesheet" href="/css/styles.css">
     <!-- Testimonials  -->
     <!-- *******  Owl Carousel Links  ******* -->
@@ -23,7 +56,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="/js/script.js"></script>
 </head>
 <body>
   <div class="preloader">
@@ -32,7 +64,7 @@
     <header>
         <nav>
             <div class="contacts">
-                    <i class="fas fa-phone"></i><a href="Tel: +254798384040">0798384040</a>
+                    <i class="fas fa-phone"></i><a href="Tel: +254798384040" style="font-weight: bold;">0798384040</a>
                     <i class="fas fa-envelope"></i><a href="mailto:fedhalandventures@gmail.com">info@fedhalandventures</a>
                     <i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Fedha+Land+Ventures/@-1.1471466,36.9584616,19z/data=!4m6!3m5!1s0x182f474b80c7eeff:0xcc6b79a45ed5fc75!8m2!3d-1.1470355!4d36.959198!16s%2Fg%2F11stj96z1b?entry=ttu" target="_blank">Address</a>
             </div>
@@ -54,7 +86,7 @@
         <div class="navigationlinks">
             <ul class="navlinks">
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="/page/Property_menu.html">Properties</a></li>
+                <li><a href="/page/properties.html">Properties</a></li>
                 <li><a href="/page/About us.html">About Us</a></li>
                 <li><a href="/page/contact.html">Contact</a></li>
                 <li class="dropdown">
@@ -119,121 +151,57 @@
 </header>
 <div style="height: 9%;"></div> <!-- Create space equal to the header height -->
 
-<section class="reachout">
-    <div class="contactForm">
-        <form action="https://formsubmit.co/a1f0b21350b51d5cfc0dd19cf094b19e" method="POST">
-            <h3>Site Visit</h3>
-            <div class="inputBox">
-                <input type="text" name="Name" required="required">
-                <span>Full Name</span>
-            </div>
-            <div class="inputBox">
-                <input type="email" name="Email" required="required">
-                <span>Email</span>
-            </div>
-            <div class="inputBox">
-                <input type="tel" name="Phone no" pattern="[0-9]{10}" required="required">
-                <span>Phone</span>
-            </div>
-            <div class="inputBox">
-                <select name="Property to Visit" required="">
-                    <option value="">--Choose Property visit--</option>
-                    <option value="Fadhili Garden Makutano">Fadhili Garden Makutano</option>
-                    <option value="Ufanisi Haven Kitengela">Ufanisi Haven Kitengela</option>
-                </select>
-            </div>
-            <div class="inputBox">
-                <input id="submitBtn" type="submit" value="Book">
-                <!-- Form submit buttons -->
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://fedhalandventures.co.ke/page/property_menu.html">
-                <input type="hidden" name="_template" value="table">
-            </div>
-        </form>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script>
-            // Submit button
-            document.getElementById("submitBtn").addEventListener("click", function(event) {
-                event.preventDefault(); // Prevent form submission
-        
-                // Check if all required fields are filled
-                var nameInput = document.getElementsByName("Name")[0].value;
-                var phoneInput = document.getElementsByName("Phone no")[0].value;
-                var emailInput = document.getElementsByName("Email")[0].value;
-                var propertyInput = document.getElementsByName("Property to Visit")[0].value;
-        
-                if (nameInput && phoneInput && emailInput && propertyInput) {
-                    Swal.fire({
-                        icon: "success",
-                        title: "Done!",
-                        text: "Booking successful.",
-                    }).then(function() {
-                        // Submit the form after the user dismisses the pop-up
-                        document.querySelector("form").submit();
-                    });
-                } else {
-                    Swal.fire({
-                        icon: "error",
-                        title: "Oops!",
-                        text: "Please fill in all required fields.",
-                    });
-                }
-            });
-        </script>
-    </div>
-    <div class="contactForm message">
-        <form action="https://formsubmit.co/a1f0b21350b51d5cfc0dd19cf094b19e" method="POST">
-            <h3>Message</h3>
-            <div class="inputBox">
-                <input type="text" name="Name" required="required">
-                <span>Full Name</span>
-            </div>
-            <div class="inputBox">
-                <input type="text" name="Email" required="required">
-                <span>Email</span>
-            </div>
-            <div class="inputBox">
-                <textarea type="text" name="Message" required="required"></textarea>
-                <span>Type your Message...</span>
-            </div>
-            <div class="inputBox">
-                <input type="submit" value="Send">
-                <!-- Form submit buttons -->
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://fedhalandventures.co.ke/page/property_menu.html">
-                <input type="hidden" name="_template" value="table">
-            </div>
-        </form>
-        <script>
-            // Send button click event
-document.querySelector(".contactForm.message input[type='submit']").addEventListener("click", function(event) {
-event.preventDefault(); // Prevent default form submission
 
-// Check if all required fields are filled
-var nameInput = document.querySelector(".contactForm.message input[name='Name']").value;
-var emailInput = document.querySelector(".contactForm.message input[name='Email']").value;
-var messageInput = document.querySelector(".contactForm.message textarea[name='Message']").value;
 
-if (nameInput && emailInput && messageInput) {
-    Swal.fire({
-        icon: "success",
-        title: "Success!",
-        text: "Message sent successfully.",
-    }).then(function() {
-        // Submit the form after the user dismisses the pop-up
-        document.querySelector(".contactForm.message form").submit();
-    });
-} else {
-    Swal.fire({
-        icon: "error",
-        title: "Oops!",
-        text: "Please fill in all required fields.",
-    });
-}
-});
-
-        </script>
-    </div>
+<section class="fadhiligarden" style="padding-top: 100px;">
+  <div class="propertyimg">
+      <img src="/img/fadhiligarden.webp" alt="fadhiligarden image">
+  </div>
+  <div class="propertydes">
+      <h1>
+          Fadhili Garden Makutano
+      </h1>
+      <h3 class="animate">
+          Prime 50 x 100 plots
+      </h3>
+      <p>
+        Are you looking for prime land to build your dream home not far from Nairobi? Fadhili Garden Makutano - Phase 1 is the place. It offers your family a serene living and a quiet place away from the hectic and noisy city environment. located 5kms off Makutano Junction (new Kenol - Marua dual carriageway)
+      </p>
+      <ul class="animate">
+          <li><i class="fas fa-check-circle"></i>Cash offer Ksh 350,000</li>
+          <li><i class="fas fa-check-circle"></i>Payment plan inclusive of title deed fee</li>
+          <li><i class="fas fa-check-circle"></i> Installments offer Ksh 385,000 deposit 100k pay balance in 6 months interest free.</li>
+      </ul>
+      <p>
+        We have free site visits every Wednesday and Saturday. Book early for logistical planning.
+      </p>
+      <div class="button animate2"><a href="/page/properties.html">View Property</a></div>
+  </div>
+</section>
+<section class="fadhiligarden">
+  <div class="propertydes">
+      <h1>
+        Ufanisi Haven Kitengela
+      </h1>
+      <h3 class="animate">
+          Prime 100 x 100 plots
+      </h3>
+      <p>
+        Are you looking for prime land to build your dream home not far from Nairobi? Fadhili Garden Makutano - Phase 1 is the place. It offers your family a serene living and a quiet place away from the hectic and noisy city environment. located 5kms off Makutano Junction (new Kenol - Marua dual carriageway)
+      </p>
+      <ul class="animate">
+          <li><i class="fas fa-check-circle"></i>Cash offer Ksh 350,000</li>
+          <li><i class="fas fa-check-circle"></i>Payment plan inclusive of title deed fee</li>
+          <li><i class="fas fa-check-circle"></i> Installments offer Ksh 385,000 deposit 100k pay balance in 6 months interest free.</li>
+      </ul>
+      <p>
+        We have free site visits every Wednesday and Saturday. Book early for logistical planning.
+      </p>
+      <div class="button animate2"><a href="/page/Ufanisi_haven.html">View Property</a></div>
+  </div>
+  <div class="propertyimg">
+    <img src="/img/ufanisi_haven.webp" alt="Ufanisi Haven image">
+</div>
 </section>
 
 
@@ -258,7 +226,7 @@ if (nameInput && emailInput && messageInput) {
 		<ul class="box">
 		  <li class="link_name">Quick links</li>
 		  <li><a href="/index.html">Home</a></li>
-		  <li><a href="page/properties.html">properties</a></li>
+		  <li><a href="/page/Property_menu.html">Properties</a></li>
 		  <li><a href="/pages/About.html">About us</a></li>
 		  <li><a href="#">diaspora clients</a></li>
 		</ul>
@@ -331,33 +299,34 @@ if (nameInput && emailInput && messageInput) {
 	</div>
 </footer>
 
-        <!-- Animations -->
-        <script defer>
-            const observer = new IntersectionObserver((entries) =>{
-            entries.forEach((entry) =>{
-                console.log(entry)
-                if (entry.isIntersecting){
-                entry.target.classList.add('show');
-                }
-                else
-                {
-                entry.target.classList.remove('show');
-                }
-            });
-            });
+<!-- Animations -->
+<script defer>
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        console.log(entry)
+        if (entry.isIntersecting){
+          entry.target.classList.add('show');
+        }
+        else
+        {
+          entry.target.classList.remove('show');
+        }
+      });
+    });
 
-            const hiddenElements = document.querySelectorAll('.animate, .animate2');
-            hiddenElements.forEach((el) => observer.observe(el));
+    const hiddenElements = document.querySelectorAll('.animate, .animate2');
+    hiddenElements.forEach((el) => observer.observe(el));
 
-            window.addEventListener('load', function () {
-              const preloader = document.querySelector('.preloader');
-              setTimeout(function () {
-                preloader.style.opacity = '0';
-                setTimeout(function () {
-                  preloader.style.display = 'none';
-                }, 500); // Adjust the delay as needed
-              }, 1000); // Adjust the delay as needed
-              }); 
-        </script>
-    </body>
+    window.addEventListener('load', function () {
+  const preloader = document.querySelector('.preloader');
+  setTimeout(function () {
+    preloader.style.opacity = '0';
+    setTimeout(function () {
+      preloader.style.display = 'none';
+    }, 500); // Adjust the delay as needed
+  }, 1000); // Adjust the delay as needed
+  }); 
+</script>
+
+</body>
 </html>

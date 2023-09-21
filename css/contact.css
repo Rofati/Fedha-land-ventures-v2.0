@@ -1,5 +1,5 @@
 body{
-  background-color: #DCDDE0;
+  background-color: #F4F4F4;
 }
 .contains{
     margin: 40px auto;
@@ -51,7 +51,7 @@ body{
   .content .left-side .details .text-one,
   .content .left-side .details .text-two{
     font-size: 14px;
-    color: #afafb6;
+    color: #676772;
   }
   
   
