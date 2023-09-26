@@ -907,6 +907,9 @@ article:has(:hover, :focus) {
   .articles{
     gap: 60px;
   }
+  .article-body p{
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .articles {
@@ -914,7 +917,9 @@ article:has(:hover, :focus) {
       flex-direction: column; 
       gap: 20px; 
   }
-
+  .article-body p{
+    display: unset;
+  }
 }
 
 
