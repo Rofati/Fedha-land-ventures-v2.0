@@ -903,6 +903,11 @@ article:has(:hover, :focus) {
   white-space: nowrap; 
   width: 1px;
 }
+@media (max-width: 900px){
+  .articles{
+    gap: 100px;
+  }
+}
 @media (max-width: 768px) {
   .articles {
     padding: 10px;
