@@ -708,6 +708,10 @@ body{
   .box1 > p{
     font-size: 15px;
   }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
   
   .mini1, .mini2, .mini3, .mini4 {
     padding: 10px 10px;
